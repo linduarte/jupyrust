@@ -2,12 +2,16 @@
     "window.zoomLevel": 0,
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "workbench.colorTheme": "Bluloco Dark Italic",
     "workbench.sideBar.location": "right",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "VictorMono Nerd Font",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "code-runner.executorMap": {
+        "rust": "cargo run # $fileName"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
 }
